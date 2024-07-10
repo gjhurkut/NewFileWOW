@@ -8,10 +8,7 @@ logging.basicConfig(level=logging.INFO)
 
 # Constants
 PROJECT_NAME = "gcp-wow-edg-le-dev-lab"
-JDBC_CONNECTION_STRING = "jdbc:sqlserver://ECCDB1501.MD3Q.FORD.COM:61435;databaseName=myDatabaseName;user=myUser;password=**** jdbc:mysql://us-cdbr-iron-east- - 04.cleardb.net/ad_e4942de8711e500?user=b2490386ca68ed&password=dc47d79b jdbc:mysql://us-cdbr-iron-east-"
-
-def main():
-    logging.info(f"Starting project: {PROJECT_NAME}")
+JDBC_CONNECTION_STRING = "jdbc:sqlserver://ECCDB1501.MD3Q.endeavourgroup.com:61435;databaseName=myDatabaseName;user=myUser;password=**** jdbc:mysql://us-cdbr-iron-east- - 04.cleardb.net/ad_e4942de8711e500?user=b2490386ca68ed&password=dc47d79b jdbc:mysql://us-cdbr-iron-east-"
     run_dummy_script()
 
 def welcome_message():
